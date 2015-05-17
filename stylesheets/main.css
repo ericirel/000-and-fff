@@ -1,4 +1,80 @@
-body {
-  background-color: #0E0Eff; }
+nav {
+  text-align: right;
+  font-size: 1.2em;
+  padding: .5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; }
+
+nav ul {
+  list-style: none; }
+  nav ul li {
+    display: inline-block;
+    padding-left: .5em;
+    padding-right: .5em; }
+    nav ul li a {
+      color: #000;
+      text-decoration: none; }
+      nav ul li a a:hover a:visited {
+        text-decoration: none; }
+        nav ul li a a:hover a:visited a:active {
+          color: #000;
+          text-decoration: none; }
+
+.primary-content {
+  width: 65%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px; }
+  .primary-content .title {
+    font-size: 1.6em;
+    font-family: "Montserrat"; }
+
+.posts, .about {
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; }
+  .posts a, .about a {
+    text-decoration: none;
+    color: #000; }
+    .posts a a:visited, .about a a:visited {
+      color: #000;
+      text-decoration: none; }
+      .posts a a:visited a:active, .about a a:visited a:active {
+        color: #000; }
+        .posts a a:visited a:active a:hover, .about a a:visited a:active a:hover {
+          text-decoration: underline; }
+
+.line {
+  border-bottom: 1px solid #ccc;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+footer {
+  max-width: 90%;
+  text-align: center;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc; }
+  footer ul {
+    list-style: none; }
+    footer ul li {
+      display: inline-block;
+      padding-left: 1em;
+      padding-right: 1em; }
+      footer ul li a {
+        color: #000; }
+
+.palette {
+  max-width: 100%; }
+
+.infinity {
+  max-width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em; }
 
 /*# sourceMappingURL=main.css.map */
